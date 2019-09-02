@@ -4,7 +4,7 @@
   "description": "load balancer using round robin",
   "main": "load_balancer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "nodemon load_balancer.js"
   },
   "keywords": [
     "load-balancer",
@@ -13,6 +13,7 @@
   "author": "mayursiinh",
   "license": "MIT",
   "dependencies": {
+    "debug": "^4.1.1",
     "koa": "^2.8.1",
     "koa-router": "^7.4.0"
   }

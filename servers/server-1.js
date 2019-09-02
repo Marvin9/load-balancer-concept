@@ -6,7 +6,7 @@ const routers = new Router()
 
 app.use(routers.routes())
 
-routers.get('/', async ctx => {
+routers.get('*', async ctx => {
     ctx.body = "Server 1"
 })
 
